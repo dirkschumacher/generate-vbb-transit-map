@@ -9,7 +9,7 @@ const uniqBy = require('lodash.uniqby')
 // const smoothing = require('./lib/smoothing')
 const parallelise = require('./lib/parallelise')
 
-const f = (n) => Math.round(n * 1000) / 1000
+const f = (n) => Math.round(n * 10000) / 10000
 
 // const noSmoothing = (polyline) => {
 // 	const first = polyline[0]
